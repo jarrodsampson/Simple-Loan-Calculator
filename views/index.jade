@@ -1,0 +1,57 @@
+doctype html
+html(lang='en-US')
+  head
+    meta(charset='utf-8')
+    title Loan Calculator - Planlodge
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='Language', content='en')
+    meta(name='description', content='A loan is an arrangement in which a lender gives money or property to a borrower, and the borrower agrees to return the property or repay the money, usually along with interest, at some future point(s) in time. Usually, there is a predetermined time for repaying a loan, and generally the lender has to bear the risk that the borrower may not repay a loan.')
+    meta(name='keywords', content='keywords')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui')
+    link(rel='icon', type='image/png', href='builds/assets/images/favicon.png')
+    link(rel='stylesheet', href='builds/assets/css/bootstrap.min.css')
+    link(rel='stylesheet', href='builds/assets/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='builds/assets/css/animations.css')
+    link(rel='stylesheet', href='builds/assets/css/alertify.core.css')
+    link(rel='stylesheet', href='builds/assets/css/alertify.default.css')
+    link(rel='stylesheet', href='builds/assets/css/style.css')
+  body#top
+    .banner
+      h1 Smart Business Calculator
+    .container-fluid
+      .row.col-md-12
+      .row.col-md-12
+        #loanContentApp.row.col-md-12
+          .showbox
+            .loader
+              svg.circular(viewbox='25 25 50 50')
+                circle.path(cx='50', cy='50', r='20', fill='none', stroke-width='2', stroke-miterlimit='10')
+    .spacer-medium
+    footer
+      .container
+        .row
+          .col-md-4.col-sm-6.footerleft
+            .logofooter Loan Calculator
+            p A React app built on Node and styled with SASS.
+    .copyright
+      .container
+        .col-md-6
+          p © 2017 - Planlodge
+        .col-md-6
+          ul.bottom_ul
+            li
+              a(href='http://planlodge.com', target='_blank') Portfolio
+            li
+              a(href='//github.com/planlodge', target='_blank') GitHub
+            li
+              a(href='//www.linkedin.com/in/jarrodsampson/', target='_blank') LinkedIn
+    a.topHome(href='#top')
+      i.glyphicon.glyphicon-arrow-up
+    script(src='builds/assets/js/react-with-addons.min.js')
+    script(src='builds/assets/js/react-dom.min.js')
+    script(src='builds/assets/js/browser.min.js')
+    script(src='builds/assets/js/remarkable.min.js')
+    script(src='builds/assets/js/jquery.min.js')
+    script(src='builds/assets/js/bootstrap.min.js')
+    script(src='builds/assets/js/alertify.min.js')
+    script(type='text/babel', src='builds/assets/js/app.js')
