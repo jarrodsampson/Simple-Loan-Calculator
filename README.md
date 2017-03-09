@@ -1,6 +1,6 @@
 # Simple Loan Calculator
 
-Learn about making smart choices with your credit utilization, built on Node with React and Foundation 6. Designed by [planlodge](http://planlodge.com).
+Recieve estimated monthly payments based on interest rates, years, and the amount loaned. Built on NodeJS, Express, React, and SASS compiled Bootstrap 3 managed with Gulp. Designed by [planlodge](http://planlodge.com).
 
 [![Build Status](https://travis-ci.org/stevenbenner/jquery-powertip.svg?branch=master)](https://travis-ci.org/stevenbenner/jquery-powertip)
 ![License](https://img.shields.io/packagist/l/doctrine/orm.svg)
